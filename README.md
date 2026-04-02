@@ -19,7 +19,6 @@ The fragmentation of energy infrastructure creates an Asset Visibility Gap. Whil
 * **Space-to-Depth Convolution (SPD-Conv):** Establishes a lossless down-sampling channel to prevent fine-grained feature vanishing for tiny targets.
 * **Detail-Enhanced Unit (DEU):** Leverages explicit gradient priors to sharpen boundaries, effectively resolving the boundary adhesion issue in dense object arrays (e.g., solar panels).
 * **Hybrid Feature Aggregation (HFA):** A frequency-spatial collaborative filtering module that enhances weak features and robustly suppresses high-frequency industrial environmental noise (e.g., specular reflections).
-* **Ultra-Real-Time Edge Deployment:** Achieves up to **350+ FPS** with optimized Non-Maximum Suppression (NMS) in highly dense scenarios, making it ideal for UAV edge computing.
 
 ## 📊 Main Results
 
@@ -37,10 +36,3 @@ Generalization Validation and Efficiency Comparison on Heterogeneous Datasets:
 | | **HFA-YOLO-N (Ours)** | **49.15** | **36.51** | **37.28** | **22.26** | **350.88** |
 
 *(Tested on an NVIDIA RTX 4070S GPU)*
-
-## 🛠️ Installation
-
-1. Clone this repository:
-```bash
-git clone [https://github.com/YourUsername/HFA-YOLO.git](https://github.com/YourUsername/HFA-YOLO.git)
-cd HFA-YOLO
